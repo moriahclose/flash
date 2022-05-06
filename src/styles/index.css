@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
 html, #root {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
-  background-color: rgb(15 23 42);;
 }
 
 body {
@@ -25,4 +26,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#logo {
+  font-family: 'Oleo Script', cursive;
 }

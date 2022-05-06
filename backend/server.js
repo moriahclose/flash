@@ -7,7 +7,7 @@ const decks = require('./routes/decks');
 const cards = require('./routes/cards');
 
 const fastify = Fastify({
-    logger: true
+    logger: false
 });
 
 fastify.register(require('fastify-swagger'), swagger.options);
